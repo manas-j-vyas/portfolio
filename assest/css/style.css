@@ -1,0 +1,53 @@
+:root {
+  --accent: #6a11cb; /* purple */
+  --accent2: #2575fc; /* blue */
+}
+
+body {
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  padding: 6rem 0;
+}
+
+.accent {
+  color: #ffdf6c; /* yellow highlight for startup vibes */
+}
+
+.btn-accent {
+  background: #ff6ec7;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+  transition: 0.3s;
+}
+.btn-accent:hover {
+  background: #ff3ea1;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+}
+
+.btn-outline-light {
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+}
+
+section {
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
