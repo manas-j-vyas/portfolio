@@ -61,10 +61,10 @@ body {
   padding-bottom: 2%;
 }
 /* Prevent button from becoming transparent on click */
-.btn:active,
-.btn:focus,
-.btn:focus:active {
-  background-color: var(--bs-btn-bg) !important;
+.sbtn:active,
+.sbtn:focus,
+.sbtn:focus:active {
+  background-color: lightcoral !important;
   border-color: var(--bs-btn-border-color) !important;
   color: var(--bs-btn-color) !important;
   box-shadow: none !important; /* optional: remove Bootstrap's focus ring */
