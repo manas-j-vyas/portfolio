@@ -44,10 +44,19 @@ body {
   border-radius: 30px;
   padding: 0.6rem 1.5rem;
 }
-
-section {
-  background: rgba(255,255,255,0.05);
-  border-radius: 20px;
-  padding: 2rem;
-  margin-top: 2rem;
+#about{
+  background-color: #fff !important;
+  padding-bottom: 2%;
+}
+#experience{
+  background-color: #fff !important;
+  padding-top:2% ;
+  padding-bottom: 2%;
+}
+#projects{
+  padding-bottom: 2%;
+}
+#contact{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
