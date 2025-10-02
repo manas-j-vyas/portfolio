@@ -60,13 +60,15 @@
                         </div>
                         <div class="mt-3 text-start">
                             <p class="text-muted">Location<br>
-                            Mumbai India</p>
+                                Mumbai India</p>
                             <p class="text-muted">Email<br>
-                            manavvyas0205@gmail.com</p>
+                                manavvyas0205@gmail.com</p>
                             <p class="text-muted">LinkedIn<br>
-                            <a href="https://linkedin.com/in/manas-j-vyas" class="link-muted" target="_blank">Manas Vyas</a>
+                                <a href="https://linkedin.com/in/manas-j-vyas" class="link-muted" target="_blank">Manas
+                                    Vyas</a>
                             <p class="text-muted">GitHub<br>
-                            <a href="https://github.com/manas-j-vyas" class="link-muted" target="_blank">manas-j-vyas</a>
+                                <a href="https://github.com/manas-j-vyas" class="link-muted"
+                                    target="_blank">manas-j-vyas</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +82,8 @@
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <h2 class="text-dark">About Me</h2>
-                    <p class="text-dark">I am a Frontend Web Developer passionate about building fast, responsive, and user-friendly
+                    <p class="text-dark">I am a Frontend Web Developer passionate about building fast, responsive, and
+                        user-friendly
                         websites. I have practical experience with HTML5, CSS3, JavaScript (ES6), Bootstrap 5, WordPress
                         and the Elementor plugin. I enjoy turning designs into working interfaces and continuously
                         learning modern web practices.</p>
@@ -205,26 +208,37 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Interested in working together? Send a message or reach out on LinkedIn / GitHub.</p>
+            <p>Interested in working together?<br> Send a message or reach out on LinkedIn / GitHub.</p>
 
             <div class="row g-4">
                 <div class="col-lg-6">
-                    <form
-                        onsubmit="alert('This contact form is demo-only. Replace with a backend or use Formspree/Zapier.'); return false;">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="col-lg-6 mx-auto">
+                       
+                        <input type="hidden" name="access_key" value="1ecf4b86-7092-446e-a99a-a146d8f6de8f">
+
+                       
+                        <input type="hidden" name="subject" value="New message from portfolio contact form">
+                        
+                        <input type="hidden" name="redirect" value="thankyou.html">
+
+                     
+                        <input type="text" name="honeypot" style="display:none">
+
+                        
                         <div class="mb-3">
-                            <label class="form-label">Your Name</label>
-                            <input class="form-control" required placeholder="Your name">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Your Email</label>
-                            <input type="email" class="form-control" required placeholder="you@example.com">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Message</label>
-                            <textarea class="form-control" rows="5" placeholder="Tell me about your project"></textarea>
+                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message"
+                                required></textarea>
                         </div>
-                        <button class="btn btn-primary">Send Message</button>
+
+                        <button type="submit" class="btn btn-accent w-100">Send</button>
                     </form>
+
                 </div>
 
                 <div class="col-lg-6">

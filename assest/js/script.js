@@ -7,3 +7,9 @@ function handleSubmit(e) {
   alert("Thank you! Your message has been sent (demo).");
   return false;
 }
+  // Clear form fields when page loads
+  window.addEventListener("pageshow", function (event) {
+    const form = document.querySelector("form");
+    if (form) form.reset();
+  });
+
